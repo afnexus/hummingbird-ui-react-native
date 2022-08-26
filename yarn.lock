@@ -3,9 +3,9 @@
 
 
 "@afnexus/hummingbird-ui-assets@^1.0.12":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@afnexus/hummingbird-ui-assets/-/hummingbird-ui-assets-1.0.14.tgz#2365695c09121b49a1a34277012fd01648243fc0"
-  integrity sha512-siKxkfDf0a4GYo7WuktQfTuXKcCUJ2z7KpdBC0thJlzGeMifFLGLhL4MB85mohyw1ibxIw9mRp7cfnYDZYib0A==
+  version "1.0.24"
+  resolved "https://registry.yarnpkg.com/@afnexus/hummingbird-ui-assets/-/hummingbird-ui-assets-1.0.24.tgz#2992392cb89d96dfb20175c89ed444231a311f49"
+  integrity sha512-BJI9ojbYM1zdY0EFNp/pINYaiF/BLMDE+fkxCcB31SEVEAoLOTz5kgua27tRWPpiuIv7mVZYqUoGMsUaVHkMEw==
 
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"

@@ -12,11 +12,16 @@ import { useFonts } from 'expo-font';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
-    LatoRegular: require('./assets/fonts/LatoRegular.ttf'),
-    LatoBold: require('./assets/fonts/LatoBold.ttf'),
+    'lato-regular': require('./assets/fonts/LatoRegular.ttf'),
+    'lato-bold': require('./assets/fonts/LatoBold.ttf'),
+    'lato-black': require('./assets/fonts/LatoBlack.ttf'),
+    'lato-light': require('./assets/fonts/LatoLight.ttf'),
+    'lato-thin': require('./assets/fonts/LatoThin.ttf'),
   });
 
   if (!fontsLoaded) return <></>;
+
+  console.log(theme.fonts);
 
   return (
     <PaperProvider theme={theme}>
@@ -29,7 +34,12 @@ export default function App() {
             <Appbar.Action icon="magnify" onPress={() => {}} />
           </Appbar.Header>
         </Surface>
-        <Text>Open up App.tsx to start working on your app!</Text>
+        <Text
+          style={{
+            fontFamily: 'lato-regular',
+          }}>
+          Open up App.tsx to start working on your app!
+        </Text>
         <View style={styles.container}>
           <Button
             icon="camera"

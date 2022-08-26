@@ -6,73 +6,73 @@ export const fontConfig: {
 } = {
   default: {
     regular: {
-      fontFamily: 'LatoRegular',
+      fontFamily: 'lato-regular',
       fontWeight: 'normal',
     },
     medium: {
-      fontFamily: 'LatoBold',
+      fontFamily: 'lato-bold',
       fontWeight: 'normal',
     },
     light: {
-      fontFamily: 'LatoLight',
+      fontFamily: 'lato-light',
       fontWeight: 'normal',
     },
     thin: {
-      fontFamily: 'LatoThin',
+      fontFamily: 'lato-thin',
       fontWeight: 'normal',
     },
   },
   web: {
     regular: {
-      fontFamily: 'LatoRegular',
+      fontFamily: 'lato-regular',
       fontWeight: 'normal',
     },
     medium: {
-      fontFamily: 'LatoBold',
+      fontFamily: 'lato-bold',
       fontWeight: 'normal',
     },
     light: {
-      fontFamily: 'LatoLight',
+      fontFamily: 'lato-light',
       fontWeight: 'normal',
     },
     thin: {
-      fontFamily: 'LatoThin',
+      fontFamily: 'lato-thin',
       fontWeight: 'normal',
     },
   },
   ios: {
     regular: {
-      fontFamily: 'LatoRegular',
+      fontFamily: 'lato-regular',
       fontWeight: 'normal',
     },
     medium: {
-      fontFamily: 'LatoBold',
+      fontFamily: 'lato-bold',
       fontWeight: 'normal',
     },
     light: {
-      fontFamily: 'LatoLight',
+      fontFamily: 'lato-light',
       fontWeight: 'normal',
     },
     thin: {
-      fontFamily: 'LatoThin',
+      fontFamily: 'lato-thin',
       fontWeight: 'normal',
     },
   },
   android: {
     regular: {
-      fontFamily: 'LatoRegular',
+      fontFamily: 'lato-regular',
       fontWeight: 'normal',
     },
     medium: {
-      fontFamily: 'LatoBold',
+      fontFamily: 'lato-bold',
       fontWeight: 'normal',
     },
     light: {
-      fontFamily: 'LatoLight',
+      fontFamily: 'lato-light',
       fontWeight: 'normal',
     },
     thin: {
-      fontFamily: 'LatoThin',
+      fontFamily: 'lato-thin',
       fontWeight: 'normal',
     },
   },
